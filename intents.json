@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "Fee",
+      "patterns": ["What is the annual fee for engineering ?",
+      "Fee ?",
+      "fees"
+      ],
+      "responses": ["Pessat quota :3,00,000 , Cet quota : 1,00,000",
+      "Please contact the office "
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "What is your name?",
+        "Who am i talking to?",
+        "who is this?"
+      ],
+      "responses": [
+        "I am PES bot",
+        "You can call me PES bot ."
+      ]
+    },
+    {
+      "tag": "PES",
+      "patterns": [
+        "Tell me about PES?",
+        "Who is the founder of PES?",
+        "Give me information about PES?"
+        
+      ],
+      "responses": [
+        "PES University, located in Bangalore, India is one of the country’s leading teaching and research universities.The University is committed to providing “navigation for the real world” that inspires students to find their true north."
+        
+      ]
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "contact info",
+        "college number",
+        "How can i contact you?"
+      ],
+      "responses": [
+        "080-10-297297",
+        "admissions@pes.edu"
+      ]
+    },
+    {
+      "tag": "Chancellor",
+      "patterns": [
+        "Who is the chancellor of PESIT?",
+        "Chancellor?"
+        
+      ],
+      "responses": [
+        "Dr. MR Doreswamy"
+        
+      ]
+    },
+    {
+      "tag": "end sem",
+      "patterns": [
+        "When is end sem",
+        "end sem?",
+        "final exam",
+        "exam",
+        "ESA"
+        
+      ],
+      "responses": [
+        "December 8th ,2023"
+        
+      ]
+    },
+    {
+      "tag": "Branches",
+      "patterns": [
+        "What are the branches available?",
+        "Braches?",
+        "Engineering branches"
+        
+        
+      ],
+      "responses": [
+        "CSE , EC, EEE, MECHANICAL, DESIGN"
+        
+      ]
+    },
+    {
+      "tag": "Programs",
+      "patterns": [
+        "What are the programs offered?",
+        "cources?",
+        "how many cources",
+        "programs"
+        
+        
+      ],
+      "responses": [
+        "1.Animation and Design , 2. Law , 3.B.arch , 4.MBA , 5.Engineering , 6. B.sc"
+        
+      ]
+    }
+  ]
+}
